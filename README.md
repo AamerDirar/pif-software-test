@@ -2,7 +2,7 @@
 
 This repository contains my solution to the software testing assignment provided by PIF for the Full-Stack Developer position.
 # This project conatins two parts:
-# First Part: Backend API:
+## First Part: Backend API:
 ## Overview
 This is a Node.js backend application built with Express.js. It supports user authentication and management with Clerk, handles webhook verification via Svix, integrates image uploads through ImageKit, and uses MongoDB via Mongoose for data persistence. The app also supports CORS and parses incoming JSON requests.
 ---
@@ -69,9 +69,10 @@ Run the default test script:
 ```bash
 npm test
 
-# Second Part: Frontend Application:
+## Second Part: Frontend Application:
 
-The project is built using modern frontend technologies including React, Vite, Tailwind CSS, and a suite of supporting libraries to handle routing, authentication, API communication, and rich UI interactions.
+This project is built using modern frontend technologies including React, Vite, Tailwind CSS, and a suite of supporting libraries to handle routing, authentication, API communication, and rich UI interactions.
+
 
 🚀 Tech Stack
 Frontend
