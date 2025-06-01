@@ -85,7 +85,7 @@ app.use((error, req, res, next) => {
  * - Logs a message indicating that the server is running.
  *
 */
-app.listen(3000, () => {
+app.listen(process.env.PORT, () => {
   connectDB();
   console.log("Server is running!");
 });
